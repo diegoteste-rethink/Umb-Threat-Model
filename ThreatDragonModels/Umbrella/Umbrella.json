@@ -19,14 +19,17 @@
         "cells": [
           {
             "position": {
-              "x": 380,
-              "y": 190
+              "x": 680,
+              "y": 189.99999999999994
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 90,
+              "height": 100
             },
             "attrs": {
+              "text": {
+                "text": "APLICAÇÃO WEB\nPORTAL SERVICOS"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -35,12 +38,12 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "d64db6a8-3155-45f5-9b40-980ef2902127",
             "zIndex": 1,
+            "id": "d64db6a8-3155-45f5-9b40-980ef2902127",
             "data": {
               "type": "tm.Process",
-              "name": "Process",
-              "description": "",
+              "name": "APLICAÇÃO WEB\nPORTAL SERVICOS",
+              "description": "[React, Angular, PHP]",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
@@ -50,14 +53,17 @@
           },
           {
             "position": {
-              "x": 375,
+              "x": 655,
               "y": 40
             },
             "size": {
-              "width": 70,
+              "width": 140,
               "height": 50
             },
             "attrs": {
+              "text": {
+                "text": "CLIENTES\nSUBSIDIARIAS"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -66,12 +72,12 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "faee0489-9d2c-44cb-8ea3-3fcd6e220793",
             "zIndex": 2,
+            "id": "faee0489-9d2c-44cb-8ea3-3fcd6e220793",
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
-              "description": "",
+              "name": "CLIENTES\nSUBSIDIARIAS",
+              "description": "Cliente de uma das subsidiárias que acessam os portais de serviço.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
@@ -81,14 +87,17 @@
           },
           {
             "position": {
-              "x": 200,
-              "y": 180
+              "x": 350,
+              "y": 194.99999999999994
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 130,
+              "height": 90
             },
             "attrs": {
+              "text": {
+                "text": "APLICAÇÃO WEB\nPORTAL ADM"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -97,12 +106,12 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "f571b802-346d-49af-bb0c-d373a88a1117",
             "zIndex": 3,
+            "id": "f571b802-346d-49af-bb0c-d373a88a1117",
             "data": {
               "type": "tm.Process",
-              "name": "Process",
-              "description": "",
+              "name": "APLICAÇÃO WEB\nPORTAL ADM",
+              "description": "[React]",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
@@ -112,14 +121,17 @@
           },
           {
             "position": {
-              "x": 240,
+              "x": 460,
               "y": 40
             },
             "size": {
-              "width": 70,
+              "width": 130,
               "height": 50
             },
             "attrs": {
+              "text": {
+                "text": "ADMINISTRADOR \nCOMPASS"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -128,12 +140,12 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "a7ff7a62-e2df-4f6d-91f3-ef51b508aaa1",
             "zIndex": 4,
+            "id": "a7ff7a62-e2df-4f6d-91f3-ef51b508aaa1",
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
-              "description": "",
+              "name": "ADMINISTRADOR \nCOMPASS",
+              "description": "Usuário responsável pela administração do portal da Compass.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
@@ -143,14 +155,17 @@
           },
           {
             "position": {
-              "x": 160,
+              "x": 270,
               "y": 40
             },
             "size": {
-              "width": 70,
+              "width": 150,
               "height": 50
             },
             "attrs": {
+              "text": {
+                "text": "ADMINISTRADOR \nSUBSIDIARA"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -159,15 +174,396 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "8c66f203-90dc-4ec8-b2ea-79a9c9e4dfcd",
             "zIndex": 5,
+            "id": "8c66f203-90dc-4ec8-b2ea-79a9c9e4dfcd",
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
-              "description": "",
+              "name": "ADMINISTRADOR \nSUBSIDIARA",
+              "description": "Usuários responsável pela administração do portal da subsidiária.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "GERENCIAMENTO",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "6315b0c6-f43e-4ff0-ad6a-3f904a24e6a3",
+            "source": {
+              "x": 513,
+              "y": 90
+            },
+            "target": {
+              "cell": "f571b802-346d-49af-bb0c-d373a88a1117"
+            },
+            "vertices": [
+              {
+                "x": 490,
+                "y": 130
+              },
+              {
+                "x": 470,
+                "y": 160
+              }
+            ],
+            "labels": [
+              "GERENCIAMENTO"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "VISUALIZAÇÃO",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "0d47a5f6-0fec-4256-9c75-696121ce04e4",
+            "source": {
+              "x": 355,
+              "y": 90
+            },
+            "target": {
+              "cell": "f571b802-346d-49af-bb0c-d373a88a1117"
+            },
+            "vertices": [
+              {
+                "x": 380,
+                "y": 160
+              }
+            ],
+            "labels": [
+              "VISUALIZAÇÃO"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "ACESSO",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "c962347c-d9f3-4097-be69-a8e9de76d0c0",
+            "source": {
+              "x": 726,
+              "y": 90
+            },
+            "target": {
+              "cell": "d64db6a8-3155-45f5-9b40-980ef2902127"
+            },
+            "vertices": [
+              {
+                "x": 726,
+                "y": 170
+              }
+            ],
+            "labels": [
+              "ACESSO"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "4ca662f3-37bd-4ba3-a5af-a5376fa39203",
+            "source": {
+              "cell": "d64db6a8-3155-45f5-9b40-980ef2902127"
+            },
+            "target": {
+              "cell": "601b908a-7e97-4812-a997-418272df90a0"
+            },
+            "vertices": [
+              {
+                "x": 640,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "RESP",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "a0f6925d-33aa-4c76-9537-e76f1916c8c2",
+            "source": {
+              "cell": "601b908a-7e97-4812-a997-418272df90a0"
+            },
+            "target": {
+              "cell": "f571b802-346d-49af-bb0c-d373a88a1117"
+            },
+            "vertices": [
+              {
+                "x": 440,
+                "y": 390
+              },
+              {
+                "x": 415,
+                "y": 350
+              }
+            ],
+            "labels": [
+              "RESP"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "RESP",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "e6cd05ff-7cd8-49b6-8260-21f3eda6f569",
+            "source": {
+              "cell": "601b908a-7e97-4812-a997-418272df90a0"
+            },
+            "target": {
+              "cell": "d64db6a8-3155-45f5-9b40-980ef2902127"
+            },
+            "vertices": [
+              {
+                "x": 670,
+                "y": 400
+              },
+              {
+                "x": 690,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "48385560-e008-4e8b-92db-edc74cb65730",
+            "source": {
+              "cell": "f571b802-346d-49af-bb0c-d373a88a1117"
+            },
+            "target": {
+              "x": 530,
+              "y": 450
+            },
+            "vertices": [
+              {
+                "x": 480,
+                "y": 350
+              },
+              {
+                "x": 500,
+                "y": 380
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 420,
+              "y": 450
+            },
+            "size": {
+              "width": 260,
+              "height": 150
+            },
+            "attrs": {
+              "text": {
+                "text": "API-GATEWAY\nSENSEDIA"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "601b908a-7e97-4812-a997-418272df90a0",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Process",
+              "name": "API-GATEWAY\nSENSEDIA",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
               "hasOpenThreats": false,
               "threats": []
             }
